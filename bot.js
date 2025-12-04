@@ -87,7 +87,7 @@ async function checkSubscriptions(userId) {
   if (checkable.length === 0) {
     await bot.sendMessage(
       userId,
-      `⚠️ Tekshirish uchun public *@handle* kerak. Iltimos kanallarga obuna bo‘ling va qayta sinab ko‘ring.`,
+      `⚠️ Tekshirish uchun public *@handle* kerak. Iltimos kanallarga obuna bo‘ling va qayta sinab ko‘ring.😎`,
       { parse_mode: "Markdown", reply_markup: channelsKeyboard() }
     );
     return;
